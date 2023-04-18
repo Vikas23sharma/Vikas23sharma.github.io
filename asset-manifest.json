@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ca83876.css",
-    "main.js": "/static/js/main.60a35893.js",
+    "main.css": "/static/css/main.14c0a9df.css",
+    "main.js": "/static/js/main.a8302762.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/dollar.png": "/static/media/dollar.a270e345152a8e09078f.png",
+    "static/media/giphy.gif": "/static/media/giphy.4fde7e11e7fd70228c64.gif",
     "static/media/vapparel.png": "/static/media/vapparel.3c3a38fd73843a2f7763.png",
     "static/media/myntra.png": "/static/media/myntra.f8539e600f9ca0d8a124.png",
     "static/media/asos.png": "/static/media/asos.a1cbaa352ce66bb6d629.png",
-    "static/media/banner.jpg": "/static/media/banner.a9e745ec39cad4a14b29.jpg",
     "static/media/photo.png": "/static/media/photo.ebff89b96fdb2607b4ed.png",
+    "static/media/staticbg.jpg": "/static/media/staticbg.6424633a8cad19aa8933.jpg",
     "static/media/CV.pdf": "/static/media/CV.84f93ab8541afe33db23.pdf",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.9ca83876.css.map": "/static/css/main.9ca83876.css.map",
-    "main.60a35893.js.map": "/static/js/main.60a35893.js.map",
+    "main.14c0a9df.css.map": "/static/css/main.14c0a9df.css.map",
+    "main.a8302762.js.map": "/static/js/main.a8302762.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ca83876.css",
-    "static/js/main.60a35893.js"
+    "static/css/main.14c0a9df.css",
+    "static/js/main.a8302762.js"
   ]
 }

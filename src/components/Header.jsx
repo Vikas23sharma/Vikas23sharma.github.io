@@ -28,7 +28,7 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="#about"> About</a>
+            <a href="#about" onClick={() => setActiveNav("#about")}> About</a>
           </li>
           <li>
             <a href="#skills" onClick={() => setActiveNav("#skills")}>

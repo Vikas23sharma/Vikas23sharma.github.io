@@ -54,18 +54,18 @@ const Header = () => {
               Contact
             </a>
           </li>
-          <button id="resume-button-1">
+          <button onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/18wvKPj5-14OlL_aI5ab0mZG_h6LtC2X4/view?usp=sharing"
+            )
+          } id="resume-button-1">
             <a
               href={CV}
               target="_blank"
               download="pdf"
               id="resume-link-1"
               className="nav-link resume"
-              onClick={() =>
-                window.open(
-                  "https://drive.google.com/file/d/18wvKPj5-14OlL_aI5ab0mZG_h6LtC2X4/view?usp=sharing"
-                )
-              }
+
             >
               Resume
             </a>

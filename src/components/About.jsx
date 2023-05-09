@@ -9,7 +9,7 @@ const About = () => {
         <div className="about-img">
           <img className="home-img" src={me} alt="home-image" />
         </div>
-        <div className="nav-link.about">
+        <div className="nav-link about">
           <h1 style={{ fontSize: "55px",marginBottom:"2%",textAlign:"center" }}>
             About <span>Me</span>
           </h1>

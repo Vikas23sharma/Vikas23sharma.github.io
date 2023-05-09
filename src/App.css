@@ -297,6 +297,11 @@ header.sticky {
 
 }
 
+#about div:nth-child(2) {
+  /* border: 1px solid red; */
+  width: 60%;
+}
+
 #user-detail-name-about {
   font-size: 40px;
 }
@@ -686,6 +691,11 @@ form textarea {
 /* responsive */
 
 @media (max-width:1480px) {
+
+  /* #home {
+    height: 60vh;
+  } */
+
   header {
     padding: 12px 2.5%;
     transition: .1s;
@@ -722,6 +732,14 @@ form textarea {
     margin-top: -9%;
   }
 
+  #about {
+    justify-content: space-evenly;
+  }
+
+  #about div:nth-child(2) {
+    width: 50%;
+  }
+
 }
 
 @media (max-width: 1100px) {
@@ -737,9 +755,9 @@ form textarea {
     font-size: 2.5rem;
   }
 
-  #home {
-    height: 87vh;
-  }
+  /* #home {
+    height: 60vh;
+  } */
 
   #stat {
     margin-top: 50px;
@@ -777,6 +795,10 @@ form textarea {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+  }
+
+  #about div:nth-child(2) {
+    width: 85%;
   }
 
   .nav-link-about {
@@ -840,7 +862,7 @@ form textarea {
 
   #home {
     /* width: 80%; */
-    height: 60vh;
+    /* height: 60vh; */
   }
 
   #menu-icon {
@@ -908,7 +930,7 @@ form textarea {
 @media (max-width:650px) {
 
   #home {
-    height: 60vh;
+    /* height: 95vh; */
     /* background-size: 100%; */
     margin-top: 0%;
   }
@@ -919,13 +941,17 @@ form textarea {
 
   #user-detail-skill {
     font-size: 40px;
+  }
+
+  #about div:nth-child(2) {
+    width: 100%;
   }
 }
 
 @media (max-width:460px) {
 
   #home {
-    height: 55vh;
+    /* height: 55vh; */
     /* background-size: 100%; */
     margin-top: 0%;
   }
@@ -937,6 +963,8 @@ form textarea {
   #user-detail-skill {
     font-size: 25px;
   }
+
+
 }
 
 
@@ -974,7 +1002,6 @@ form textarea {
   padding: 10px 15px;
   border-bottom: 1px solid var(--main-color);
   color: white
-  
 }
 
 /* Style for last dropdown item */

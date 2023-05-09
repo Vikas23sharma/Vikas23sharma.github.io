@@ -129,7 +129,7 @@ const Project = () => {
                             </p>
                             <p className="project-tech-stack">Tech-Stack : HTML, CSS, JS</p>
                             <div id="project-links">
-                                <div class="project-deployed-link">
+                                <div className="project-deployed-link">
                                     <a
                                         href="https://fluffy-malasada-634452.netlify.app/"
                                         target="_blank"

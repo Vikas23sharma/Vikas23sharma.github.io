@@ -9,7 +9,7 @@ const About = () => {
         <div className="about-img">
           <img className="home-img" src={me} alt="home-image" />
         </div>
-        <div style={{ width: "70%" }} className="nav-link about">
+        <div  className="nav-link about">
           <h1 style={{ fontSize: "55px", marginBottom: "2%", textAlign: "center" }}>
             About <span>Me</span>
           </h1>
@@ -31,14 +31,11 @@ const About = () => {
             Apart from coding my hobbies include watching and playing cricket 🏏,doing calisthenics and listening
             indian hiphop 🎧.
           </p>
-          <button onClick={() =>
-            window.open(
-              "https://drive.google.com/file/d/18wvKPj5-14OlL_aI5ab0mZG_h6LtC2X4/view?usp=sharing"
-            )
-          } id="resume-button-2" style={{ marginTop: "5px" }}>
+          <button id="resume-button-2" style={{ marginTop: "5px" }}>
             <a
               href={CV}
-              download="pdf"
+              download
+              target="_blank"
               id="resume-link-2"
 
             >

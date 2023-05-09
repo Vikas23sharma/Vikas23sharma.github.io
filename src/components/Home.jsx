@@ -10,30 +10,27 @@ const Home = () => {
             <span className="one">Hello ,</span>
             <span className="two">MY NAME IS</span>
           </div>
-          <h1 id="user-detail-name"><span style={{backgroundColor:"transparent"}}>Vikas</span> Kumar Sharma</h1>
+          <h1 id="user-detail-name"><span style={{ backgroundColor: "transparent" }}>Vikas</span> Kumar Sharma</h1>
           <h3 id="user-detail-skill">
-           I am a MERN <span style={{backgroundColor:"transparent"}}>Developer.</span>
+            I am a MERN <span style={{ backgroundColor: "transparent" }}>Developer.</span>
           </h3>
 
           <br />
-          <button id="resume-button-2" style={{ marginTop: "5px" }}>
+          {/* <button
+             id="resume-button-2" style={{ marginTop: "5px" }}>
             <a
               href={CV}
-              download="pdf"
+              download
               id="resume-link-2"
               target="_blank"
-              onClick={() =>
-                window.open(
-                  "https://drive.google.com/file/d/18wvKPj5-14OlL_aI5ab0mZG_h6LtC2X4/view?usp=sharing"
-                )
-              }
+            
             >
               <span>
                 <i className="bx bx-download"></i>
               </span>
               Resume
             </a>
-          </button>
+          </button> */}
         </div>
       </section>
     </>
@@ -41,3 +38,9 @@ const Home = () => {
 };
 
 export default Home;
+
+// onClick={() =>
+//   window.open(
+//     "https://drive.google.com/file/d/18wvKPj5-14OlL_aI5ab0mZG_h6LtC2X4/view?usp=sharing"
+//   )
+// }

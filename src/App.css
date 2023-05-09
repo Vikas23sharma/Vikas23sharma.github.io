@@ -92,7 +92,8 @@ span {
 
 #menu-icon {
   font-size: 35px;
-  color: var(--text-color);
+  /* color: var(--text-color); */
+  color: var(--main-color);
   z-index: 10001;
   cursor: pointer;
   margin-left: 25px;
@@ -782,11 +783,11 @@ form textarea {
     width: 100%;
   }
 
-  .nav-link-about h1{
+  .nav-link-about h1 {
     font-size: 35px;
   }
 
-  #user-detail-name-about{
+  #user-detail-name-about {
     font-size: 20px;
   }
 
@@ -835,6 +836,11 @@ form textarea {
 
 /* --------------------------------------menu icons---------------------------------------------------------- */
 @media (max-width:840px) {
+
+  #home {
+    /* width: 80%; */
+    height: 60vh;
+  }
 
   #menu-icon {
     display: block;
@@ -898,6 +904,40 @@ form textarea {
   }
 }
 
+@media (max-width:650px) {
+
+  #home {
+    height: 60vh;
+    /* background-size: 100%; */
+    margin-top: 0%;
+  }
+
+  #user-detail-name {
+    font-size: 40px;
+  }
+
+  #user-detail-skill {
+    font-size: 40px;
+  }
+}
+
+@media (max-width:460px) {
+
+  #home {
+    height: 55vh;
+    /* background-size: 100%; */
+    margin-top: 0%;
+  }
+
+  #user-detail-name {
+    font-size: 25px;
+  }
+
+  #user-detail-skill {
+    font-size: 25px;
+  }
+}
+
 
 
 /* dropDown */
@@ -906,6 +946,7 @@ form textarea {
   cursor: pointer;
   padding: 10px 15px;
   /* background-color: #35b200; */
+  color: var(--main-color);
   background-color: var(--main-color);
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -919,6 +960,7 @@ form textarea {
   width: 100%;
   max-height: 500px;
   overflow-y: auto;
+  color: var(--main-color);
   background-color: #070707;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -930,7 +972,8 @@ form textarea {
   cursor: pointer;
   padding: 10px 15px;
   border-bottom: 1px solid var(--main-color);
-  color: "green"
+  color: #009cfe
+  
 }
 
 /* Style for last dropdown item */

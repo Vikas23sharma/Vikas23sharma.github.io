@@ -33,7 +33,7 @@ const Project = () => {
                                 <div className="project-deployed-link">
                                     <a href="https://fashique.vercel.app/" target="_blank">
                                         <i>
-                                            <SiNetlify />
+                                            Live {/*  <SiNetlify size={15} /> */}
                                         </i>
                                     </a>
                                 </div>
@@ -67,7 +67,7 @@ const Project = () => {
                                         target="_blank"
                                     >
                                         <i>
-                                            <SiNetlify />
+                                            Live   {/* <SiNetlify /> */}
                                         </i>
                                     </a>
                                 </div>
@@ -101,7 +101,7 @@ const Project = () => {
                                         target="_blank"
                                     >
                                         <i>
-                                        <SiNetlify />
+                                            Live {/* <SiNetlify /> */}
                                         </i>
                                     </a>
                                 </div>
@@ -135,7 +135,7 @@ const Project = () => {
                                         target="_blank"
                                     >
                                         <i>
-                                            <SiNetlify />
+                                            Live   {/* <SiNetlify /> */}
                                         </i>
                                     </a>
                                 </div>

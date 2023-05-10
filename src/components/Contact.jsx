@@ -2,8 +2,10 @@ import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineWhatsApp } from "react-icons/ai";
+import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm("xvonyopb");
   return (
     <>
       <section className="nav-link contact" id="contact">
@@ -12,7 +14,7 @@ const Contact = () => {
             Contact <span>Me!</span>
           </h2>
           <h4>
-          Coming together is a beginning. Keeping together is progress. Working together is success.
+            Coming together is a beginning. Keeping together is progress. Working together is success.
           </h4>
           <p>
             Fill the form to connect if any query <i className="fas fa-smile"></i>
@@ -76,19 +78,48 @@ const Contact = () => {
         </div>
 
         <div className="contact-form">
-          <form>
-            <input type="name" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email Address" required />
-            <input type="" placeholder="Your Mobile Number" required />
-            <textarea
-              name=""
-              id=""
-              cols="35"
-              rows="10"
-              placeholder="How Can I Help You"
-              required
-            ></textarea>
-            <input type="submit" value="Send Message" className="submit" required />
+          <form onSubmit={handleSubmit}>
+            <label htmlFor="email" style={{ color: "var(--main-color)" }}>
+              Email Address
+            </label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="enter email address"
+              border="1px solid green"
+            />
+            <ValidationError
+              prefix="Email"
+              field="email"
+              errors={state.errors}
+            />
+            <label
+              htmlFor="email"
+              style={{
+                marginTop: "10px",
+                marginBottom: "10px",
+                color: "var(--main-color)",
+              }}>
+              Type your message here
+            </label>
+            <textarea id="message" name="message" placeholder="write here..." />
+            <ValidationError
+              prefix="Message"
+              field="message"
+              errors={state.errors}
+            />
+            <button
+             style={{padding:"1% 2%",color:"white",backgroundColor:"#009cfe",border:"1px solid #009cfe",borderRadius:"5px"}}
+              type="submit"
+              disabled={state.submitting}
+              color={"white"}
+              backgroundColor={"green"}
+              onClick={() =>
+                alert("Message Sent Successfully!!! ")
+              }>
+              Submit
+            </button>
           </form>
         </div>
       </section>

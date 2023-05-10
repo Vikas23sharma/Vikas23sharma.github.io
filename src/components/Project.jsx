@@ -63,7 +63,7 @@ const Project = () => {
                             <div id="project-links">
                                 <div className="project-deployed-link">
                                     <a
-                                        href="https://vsdollarstore.netlify.app/"
+                                        href="https://dollar-zeta.vercel.app/"
                                         target="_blank"
                                     >
                                         <i>

@@ -28,8 +28,8 @@ const About = () => {
             opportunities to work on significant projects and grow as a developer.
             <br />
             <br />
-            Apart from coding my hobbies include watching and playing cricket 🏏,doing calisthenics and listening
-            indian hiphop 🎧.
+            Apart from coding my hobbies include watching and playing cricket 🏏, doing calisthenics, and listening
+            to indian hip-hop 🎧.
           </p>
           <button id="resume-button-2" style={{ marginTop: "5px" }}>
             <a

@@ -114,7 +114,7 @@ const Contact = () => {
               type="submit"
               disabled={state.submitting}
               color={"white"}
-              backgroundColor={"green"}
+              // backgroundColor={"green"}
               onClick={() =>
                 alert("Message Sent Successfully!!! ")
               }>

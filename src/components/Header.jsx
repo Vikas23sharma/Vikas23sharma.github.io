@@ -62,6 +62,11 @@ const Header = () => {
                 download
                 id="resume-link-1"
                 className="nav-link resume"
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1g7eGE_Fwg3JsOaaXvrfH-wzku3HlFFfQ/view?usp=sharing"
+                  )
+                }
               >
                 Resume
               </a>

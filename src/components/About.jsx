@@ -37,7 +37,11 @@ const About = () => {
               download
               target="_blank"
               id="resume-link-2"
-
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1g7eGE_Fwg3JsOaaXvrfH-wzku3HlFFfQ/view?usp=sharing"
+                )
+              }
             >
               <span>
                 <i className="bx bx-download"></i>

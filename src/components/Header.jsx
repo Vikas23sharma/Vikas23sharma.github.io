@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import CV from "../assests/CV.pdf";
+import CV from "../assests/Vikas_sharma_resume.pdf";
 import DropDown from "./Dropdown";
 
 const Header = () => {

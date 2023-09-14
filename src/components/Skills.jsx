@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <>
       <section id="skills">
-        <div className="main-text">
+        <div className="skills-main-text">
           <h2>
             <span>My </span>Skills
           </h2>

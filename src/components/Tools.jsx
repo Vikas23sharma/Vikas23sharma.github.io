@@ -12,14 +12,14 @@ const Tools = () => {
     return (
         <>
             <section id="tools">
-                <div className="main-text">
+                <div className="tools-main-text">
                     <h2>
                         My <span>Tools</span>
                     </h2>
                     {/* <p style={{ marginTop: "10px" }}>What I am Expert In ?</p> */}
                 </div>
 
-                <div className="nav-link skills" id="skills-part">
+                <div className="nav-link tools" id="tools-part">
                     <div className="tools-card">
                         <div className="tools-card-img">
                             <TbBrandVscode
@@ -80,24 +80,24 @@ const Tools = () => {
                             vercel
                         </h3>
                     </div>
-                    {/* <div className="skills-card">
-                        <div className="skills-card-img">
+                    {/* <div className="tools-card">
+                        <div className="tools-card-img">
                             <SiTypescript
                                 style={{ height: "50px", width: "50px", margin: "auto" }}
                             />
                         </div>
-                        <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
+                        <h3 className="tools-card-name" style={{ color: "#009cfe" }}>
                             Typescript
                         </h3>
                     </div>
 
-                    <div className="skills-card">
-                        <div className="skills-card-img">
+                    <div className="tools-card">
+                        <div className="tools-card-img">
                             <TfiWrite
                                 style={{ height: "50px", width: "50px", margin: "auto" }}
                             />
                         </div>
-                        <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
+                        <h3 className="tools-card-name" style={{ color: "#009cfe" }}>
                             DSA
                         </h3>
                     </div> */}

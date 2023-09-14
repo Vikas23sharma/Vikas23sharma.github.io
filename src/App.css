@@ -372,9 +372,8 @@ header.sticky {
   /* justify-content: space-evenly; */
   text-align: center;
   justify-content: center;
-
-
 }
+
 
 .skills-card-img i {
   font-size: 32px;
@@ -418,6 +417,65 @@ header.sticky {
 }
 
 .skills-card:hover {
+  transform: translateY(-8px);
+  cursor: pointer;
+}
+
+/* tools section -------------- */
+
+
+.tools-card {
+  background: var(--bg-color);
+  padding: 35px 25px;
+  border-radius: 8px;
+  transition: all .45s ease;
+  /* justify-content: space-evenly; */
+  text-align: center;
+  justify-content: center;
+}
+
+.tools-card-img i {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* #icon{
+  border: 0px solid red;
+  margin-left: 45%;
+} */
+.tools-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.tools-card p {
+  color: var(--second-color);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.read {
+  display: inline-block;
+  padding: 8px 18px;
+  background: #333333;
+  color: var(--second-color);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all .45s ease;
+}
+
+.read:hover {
+  letter-spacing: 1px;
+  background: #ffffff99;
+  color: var(--text-color);
+}
+
+.tools-card:hover {
   transform: translateY(-8px);
   cursor: pointer;
 }

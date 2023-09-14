@@ -9,8 +9,9 @@ const Home = () => {
           <div className="slide">
             <span className="one">Hello ,</span>
             <span className="two">MY NAME IS</span>
-          </div>
           <h1 id="user-detail-name"><span style={{ backgroundColor: "transparent" }}>Vikas</span> Kumar Sharma</h1>
+
+          </div>
           <h3 id="user-detail-skill">
             I am a MERN <span style={{ backgroundColor: "transparent" }}>Developer.</span>
           </h3>

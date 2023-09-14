@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
@@ -8,6 +8,7 @@ import Github from './components/Github';
 import Skills from './components/Skills';
 import Project from './components/Project';
 import End from './components/end';
+import Tools from './components/Tools';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Tools/>
       <Project />
       <Github />
       <Contact />

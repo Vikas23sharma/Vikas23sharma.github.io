@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.989b69fb.css",
-    "main.js": "/static/js/main.9832b528.js",
+    "main.css": "/static/css/main.2aa20910.css",
+    "main.js": "/static/js/main.0fdd210c.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/dollar.png": "/static/media/dollar.a270e345152a8e09078f.png",
     "static/media/vapparel.png": "/static/media/vapparel.3c3a38fd73843a2f7763.png",
@@ -10,14 +10,13 @@
     "static/media/asos.png": "/static/media/asos.a1cbaa352ce66bb6d629.png",
     "static/media/photo.png": "/static/media/photo.ebff89b96fdb2607b4ed.png",
     "static/media/Vikas_sharma_resume.pdf": "/static/media/Vikas_sharma_resume.84f93ab8541afe33db23.pdf",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.989b69fb.css.map": "/static/css/main.989b69fb.css.map",
-    "main.9832b528.js.map": "/static/js/main.9832b528.js.map",
+    "main.2aa20910.css.map": "/static/css/main.2aa20910.css.map",
+    "main.0fdd210c.js.map": "/static/js/main.0fdd210c.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.989b69fb.css",
-    "static/js/main.9832b528.js"
+    "static/css/main.2aa20910.css",
+    "static/js/main.0fdd210c.js"
   ]
 }

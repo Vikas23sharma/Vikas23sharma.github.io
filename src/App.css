@@ -227,6 +227,7 @@ section {
 }
 
 #resume-button-1 {
+  border-radius: 7px;
   background: var(--main-color);
   color: var(--text-color);
 }
@@ -277,7 +278,7 @@ header.sticky {
 .about-img img {
   border: 0px solid crimson;
   max-width: 350px;
-  height: 350px;
+  height: 320px;
   width: 275px;
   border-radius: 10%;
   align-items: end;
@@ -299,7 +300,9 @@ header.sticky {
 
 #about div:nth-child(2) {
   /* border: 1px solid red; */
-  width: 60%;
+  width: 55%;
+  text-align: left;
+  /* height: 150px; */
 }
 
 #user-detail-name-about {
@@ -509,6 +512,22 @@ header.sticky {
 }
 
 /* github section -------------- */
+.github-main-text {
+  text-align: center;
+}
+
+/* .main-text p {
+  color: var(--second-color);
+  font-size: 15px;
+  margin-bottom: 15px;
+} */
+
+.github-main-text h2 {
+  font-size: var(--h2-font);
+  line-height: 1;
+}
+
+
 .max-width {
   width: 80%;
   margin: auto;
@@ -530,11 +549,27 @@ header.sticky {
 
 }
 
-/* Projects */
+/* Projects-section */
+
+
 /* #projects {
   background-image: url("./assests/giphy.gif");
-
 } */
+
+.project-main-text {
+  text-align: center;
+}
+
+/* .main-text p {
+  color: var(--second-color);
+  font-size: 15px;
+  margin-bottom: 15px;
+} */
+
+.project-main-text h2 {
+  font-size: var(--h2-font);
+  line-height: 1;
+}
 
 #nav-link-projects {
   display: grid;

@@ -305,7 +305,7 @@ header.sticky {
   align-items: center;
   text-align: center;
   /* background: var(--bg-color); */
-  background-image: url("http://localhost:3000/static/media/trialbg.debfbc835c368447fe68.jpg");
+  background-image: url("./assests/trialbg.jpg");
   background-size: cover;
   background-position: center;
   padding-bottom:200px;
@@ -1167,6 +1167,10 @@ form textarea {
 
   .nav-link.about h1{
     font-size: 35px !important;
+  }
+
+  .dropdown-menu{
+    top: 100px;
   }
 
 }

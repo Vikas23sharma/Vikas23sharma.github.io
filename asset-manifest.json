@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.00849438.css",
+    "main.css": "/static/css/main.d65bced6.css",
     "main.js": "/static/js/main.88022496.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/essentia.png": "/static/media/essentia.2e0382f2a46bb0b5bf8c.png",
@@ -15,12 +15,12 @@
     "static/media/Vikas_sharma_resume.pdf": "/static/media/Vikas_sharma_resume.772f8b22bb240dc1961c.pdf",
     "static/media/photo.png": "/static/media/photo.ebff89b96fdb2607b4ed.png",
     "index.html": "/index.html",
-    "main.00849438.css.map": "/static/css/main.00849438.css.map",
+    "main.d65bced6.css.map": "/static/css/main.d65bced6.css.map",
     "main.88022496.js.map": "/static/js/main.88022496.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00849438.css",
+    "static/css/main.d65bced6.css",
     "static/js/main.88022496.js"
   ]
 }

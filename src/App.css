@@ -1169,10 +1169,17 @@ form textarea {
     font-size: 35px !important;
   }
 
-  .dropdown-menu{
+  .dropdown .dropdown-menu{
     top: 100px;
   }
 
+  #about {
+    padding-bottom: 40px;
+  }
+
+  .about-img {
+    margin: 60px 0 0;
+  }
 }
 
 

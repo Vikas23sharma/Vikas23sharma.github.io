@@ -254,7 +254,7 @@ section:has(+ section){
   color: var(--text-color);
   transition: all .45s ease;
   font-size: clamp(16px,1.302vw,20px);
-  line-height: clamp(18px,2.083vw,32px);
+  line-height: clamp(28px,2.083vw,32px);
   font-weight: 500;
   transition: all .45s ease;
   display: block;
@@ -940,10 +940,10 @@ form textarea {
 
   }
 
-  #nav-link-projects {
+  #nav-link-projects,
+  #nav-link-projects-live{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-
   }
 
   #github-top-langs {
@@ -1014,6 +1014,11 @@ form textarea {
   }
 
   #nav-link-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  }
+
+  #nav-link-projects-live {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   }
@@ -1089,7 +1094,11 @@ form textarea {
   #nav-link-projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  }
 
+  #nav-link-projects-live {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   }
 }
 
@@ -1112,6 +1121,28 @@ form textarea {
   #about div:nth-child(2) {
     width: 100%;
   }
+
+  .experience-main-text,
+  .skills-main-text,
+  .tools-main-text,
+  .project-main-text{
+    text-align: left;
+    padding: 0 10px;
+  }
+
+  #projects > h2{
+    text-align: left !important;
+    padding-left: 10px;
+  }
+
+  #nav-link-projects-live + h2,
+  .project-main-text + h2{
+    margin-top: 40px !important;
+  }
+
+  .work-ex-list {
+    padding: 0 10px;
+  }
 }
 
 @media (max-width:460px) {
@@ -1129,7 +1160,14 @@ form textarea {
   #user-detail-skill {
     font-size: 25px;
   }
+ 
+  .logo{
+    left: 0;
+  }
 
+  .nav-link.about h1{
+    font-size: 35px !important;
+  }
 
 }
 

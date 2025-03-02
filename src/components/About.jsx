@@ -10,17 +10,19 @@ const About = () => {
           <img className="home-img" src={me} alt="home-image" />
         </div>
         <div  className="nav-link about">
-          <h1 style={{ fontSize: "55px", marginBottom: "2%", textAlign: "center" }}>
-            About <span>Me</span>
+          <h1 style={{ fontSize: "55px", marginBottom: "2%", textAlign: "left" }}>
+            {/* About <span>Me</span> */}
+            Vikas K. <span>Sharma</span>
           </h1>
           <h2 id="user-detail-name-about">
-            I'm <span>Vikas K. Sharma</span> from Satna, M.P
+            {/* I'm <span>Vikas K. Sharma</span> from Satna, M.P */}
+            Full Stack <span>Developer</span>
           </h2>
           <br />
           {/* <h3>MERN Developer</h3> */}
 
           <p id="user-detail-intro" style={{ letterSpacing: "1px", color: "white", padding: "5px" }}>
-            An Innovative and Aspiring Full Stack Web Developer.
+            {/* An Innovative and Aspiring Full Stack Web Developer.
             Proficient in HTML, CSS, and Javascript with 1200+ hours of
             coding experience, good interpersonal skills, and hands-on
             experience in building individual and collaborative projects.
@@ -29,9 +31,10 @@ const About = () => {
             <br />
             <br />
             Apart from coding my hobbies include watching and playing cricket 🏏, doing calisthenics, and listening
-            to indian hip-hop 🎧.
+            to indian hip-hop 🎧. */}
+            I am a Full Stack Developer who enjoys problem-solving and delivering high-quality solutions across various development areas. I quickly adapt to new environments and am always eager to learn. I strive to contribute to impactful projects and collaborate with dynamic teams.
           </p>
-          <button id="resume-button-2" style={{ marginTop: "5px" }}>
+          <button className="button" id="resume-button-2" style={{ marginTop: "25px" }}>
             <a
               href={CV}
               download
@@ -39,7 +42,7 @@ const About = () => {
               id="resume-link-2"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1g7eGE_Fwg3JsOaaXvrfH-wzku3HlFFfQ/view?usp=sharing"
+                  "https://drive.google.com/file/d/11Ad4VZ8PK2uq5UjsGC_m65F5e48cgwXw/view?usp=sharing"
                 )
               }
             >

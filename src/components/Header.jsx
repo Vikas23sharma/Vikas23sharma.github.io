@@ -17,7 +17,7 @@ const Header = () => {
           Vikas K. <span> Sharma </span>
         </a>
         <ul className="navlist">
-          <li>
+          {/* <li>
             <a
               href="#home"
               className="active"
@@ -26,9 +26,12 @@ const Header = () => {
               {" "}
               Home
             </a>
+          </li> */}
+          <li>
+            <a href="#" onClick={() => setActiveNav("#about")}> Home </a>
           </li>
           <li>
-            <a href="#about" onClick={() => setActiveNav("#about")}> About</a>
+            <a href="#experience" onClick={() => setActiveNav("#experience")}> Experience </a>
           </li>
           <li>
             <a href="#skills" onClick={() => setActiveNav("#skills")}>
@@ -48,12 +51,12 @@ const Header = () => {
               Projects
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#githubs" onClick={() => setActiveNav("#githubs")}>
               {" "}
               GitHub
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#contact" onClick={() => setActiveNav("#contact")}>
               {" "}
@@ -61,7 +64,7 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <button id="resume-button-1">
+            <button className="button" id="resume-button-1">
               <a
                 href={CV}
                 target="_blank"
@@ -70,7 +73,7 @@ const Header = () => {
                 className="nav-link resume"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1g7eGE_Fwg3JsOaaXvrfH-wzku3HlFFfQ/view?usp=sharing"
+                    "https://drive.google.com/file/d/11Ad4VZ8PK2uq5UjsGC_m65F5e48cgwXw/view?usp=sharing"
                   )
                 }
               >
@@ -82,12 +85,13 @@ const Header = () => {
         <div id="menu-icon">
           <DropDown
             options={[
-              <a href="#home">Home</a>,
-              <a href="#about">About</a>,
+              // <a href="#home">Home</a>,
+              <a href="#">Home</a>,
+              <a href="#experience">Experience</a>,
               <a href="#skills">Skills</a>,
               <a href="#tools">Tools</a>,
               <a href="#projects">Projects</a>,
-              <a href="#githubs">GitHub</a>,
+              // <a href="#githubs">GitHub</a>,
               <a href="#contact">Contact</a>,
             ]}
             onSelect={handleOptionSelect}

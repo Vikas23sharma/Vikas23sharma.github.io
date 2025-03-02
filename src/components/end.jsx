@@ -13,7 +13,7 @@ const End = () => {
          
         </div>
         <div className="top">
-          <a href="#home">
+          <a href="#">
             <BsArrowUpSquare size={50} style={{ color: "white" }} />
           </a>
         </div>

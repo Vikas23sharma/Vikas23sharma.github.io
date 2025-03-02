@@ -9,17 +9,19 @@ import Skills from './components/Skills';
 import Project from './components/Project';
 import End from './components/end';
 import Tools from './components/Tools';
+import Experience from './components/Experience';
 
 function App() {
   return (
     <div className="body">
       <Header />
-      <Home />
+      {/* <Home /> */}
       <About />
+      <Experience/>
       <Skills />
       <Tools/>
       <Project />
-      <Github />
+      {/* <Github /> */}
       <Contact />
       <End />
     </div>

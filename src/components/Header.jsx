@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import CV from "../assests/Vikas_sharma_resume.pdf";
+import CV from "../assests/Vikas_K_Sharma_Resume.pdf";
 import DropDown from "./Dropdown";
 
 const Header = () => {
@@ -73,7 +73,7 @@ const Header = () => {
                 className="nav-link resume"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/11Ad4VZ8PK2uq5UjsGC_m65F5e48cgwXw/view?usp=sharing"
+                    "https://drive.google.com/file/d/1cKSYkAJnXyRiMakL-sEYEETQh1mox2z9/view?usp=sharing"
                   )
                 }
               >

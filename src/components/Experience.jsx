@@ -1,6 +1,6 @@
 import React from "react";
 import me from "../assests/photo.png";
-import CV from "../assests/Vikas_sharma_resume.pdf";
+// import CV from "../assests/Vikas_sharma_resume.pdf";
 
 const Experience = () => {
   return (
